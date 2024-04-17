@@ -66,6 +66,7 @@ void setup() {
     background(backgroundColor);
     maximumZ = height / 2 ;  // front of the scene
     minimumZ = - height / 2 ;  // back of the scene
+    //link to image https://pixabay.com/vectors/circles-round-triangle-154261/
     customPImage = loadImage("TriangleTexture.png"); // load before makeCustomPShape(), USE YOUR OWN
                                                 // STUDENT: If you decide not to texture your PShape, remove the
                                                 // above loadImage call, allowing customPImage to be null.
